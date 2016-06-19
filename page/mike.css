@@ -1,0 +1,288 @@
+@import url(mike_sj.css) screen and (max-width: 768px);
+@import url(mike_pb.css) screen and (min-width: 768px);
+@import url(mike_dn.css) screen and (min-width: 992px);
+@charset 'utf-8';
+body {
+  background-color: #f5f5f5;
+}
+.h {
+  height: 40px;
+}
+.navbar {
+  padding: 12px 0;
+  background-color: #88c5e1;
+  border: none;
+  border-bottom: 5px solid #54abd4;
+}
+.navbar .cebian span {
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+}
+.navbar input {
+  background-color: #f5f5f5;
+}
+.navbar input:hover {
+  transform: scale(0.99, 0.99);
+  background-color: white;
+}
+.navbar .row .navbar-collapse a {
+  font-size: 20px;
+  color: white;
+}
+.navbar .row .navbar-collapse .a {
+  border-bottom: 2px solid #ffffff;
+}
+.navbar .row .navbar-collapse a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.navbar .input-group-btn a {
+  width: 38px;
+  height: 38px;
+  background-color: #f5f5f5;
+}
+.navbar .input-group-btn span {
+  margin-top: 5px;
+}
+.center {
+  margin-top: 40px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.center section {
+  background-color: white;
+  padding-top: 30px;
+  box-shadow: 0 5px 5px #ccc;
+}
+.center section .top {
+  font-size: 20px;
+  border-left: 3px solid #88c5e1;
+  padding: 5px 20px;
+}
+.center .left1 {
+  margin-bottom: 25px;
+}
+.center .left2 .top a {
+  font-size: 12px;
+  color: #777777;
+}
+.center .left2 .xia .p1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.center .left2 .xia img {
+  width: 13px;
+}
+.center .left2 .center {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.center .left2 .center .rq {
+  padding: 10px;
+}
+.center .left2 .center .container-fluid {
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.center .right {
+  padding-bottom: 30px;
+}
+.center .right .bottom a {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #88c5e1;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.center .right .bottom h5 {
+  margin-top: 30px;
+}
+.section0 {
+  background-image: url(../images/homeImg.png);
+  height: 400px;
+  margin-top: 60px;
+  background-repeat: no-repeat;
+}
+.section0 .right {
+  color: white;
+  margin-top: 90px;
+}
+.section0 .right .nav {
+  border-bottom: none;
+}
+.section0 .right .nav .tou {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-bottom: none;
+  padding: 0px;
+}
+.section0 .right .nav li:hover {
+  border-bottom: 2px solid white;
+}
+.section0 .right .nav li {
+  margin-right: 10px;
+}
+.section0 .right .active {
+  border-bottom: 2px solid white;
+}
+.section0 .right .tab-content .tab-form1 {
+  margin-top: 20px;
+}
+.section0 .right .tab-content .tab-form1 .inputsr {
+  transition: all 0.3s ease;
+  height: 40px;
+  background-color: #f5f5f5;
+}
+.section0 .right .tab-content .tab-form1 .inputsr:hover {
+  transform: scale(0.99, 0.99);
+  background-color: white;
+  border-radius: none;
+}
+.section0 .right .tab-content .tab-form1 .inputdx {
+  margin-right: 3px;
+}
+.section0 .right .tab-content .tab-form1 button {
+  background-color: #88c5e1;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 8px solid #54abd4;
+  font-size: 20px;
+  transition: top 0.3s ease;
+}
+.section0 .right .tab-content .tab-form1 button:hover {
+  border-bottom: 5px solid #54abd4;
+  height: 45px;
+  position: relative;
+  top: 5px;
+}
+.section0 .left .images1 {
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+.section0 .left img {
+  margin-left: 30%;
+}
+footer {
+  color: #555;
+}
+footer .bb {
+  text-align: center;
+}
+footer .bb a {
+  color: #555555;
+}
+footer .bb a:hover {
+  color: #88c5e1;
+}
+footer .bb .hu {
+  color: #9A7C38;
+}
+footer .bb p {
+  margin: 0;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+footer .l {
+  margin-right: 20px;
+  height: 80px;
+  line-height: 80px;
+}
+footer p {
+  font-size: 12px;
+}
+.left2 .shang {
+  text-align: center;
+}
+.left2 .shang img {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+.left2 .xia .p1 a {
+  color: #000000;
+}
+.left2 .xia .p1 a:hover {
+  color: #88c5e1;
+}
+.left2 .xia .p2 a {
+  background-color: #88C5E1;
+  color: white;
+  font-size: 13px;
+  margin-right: 3px;
+  border-radius: 5px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.left2 .xia .p2 a:hover {
+  background-color: #54ABD4;
+  text-decoration: none;
+}
+.left2 .xia .p4 {
+  color: #F9CA5A;
+}
+.left2 .xia .p3 a {
+  margin-left: 5px;
+  color: #555;
+}
+.left2 .xia .p3 a:hover {
+  color: #88c5e1;
+}
+.left1 {
+  padding-bottom: 70px;
+}
+.left1 .carousel-indicators {
+  bottom: -50px;
+}
+.left1 .carousel-indicators li {
+  border: 1px solid #F8C038;
+}
+.left1 .carousel-indicators .active {
+  background-color: #f8c038;
+}
+.left1 .carousel {
+  margin-top: 30px;
+}
+.left1 .img1 {
+  width: 100%;
+}
+.left1 .img2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  position: absolute;
+  bottom: 100px;
+  left: 40%;
+}
+.left1 .b {
+  text-align: center;
+  background-color: #F5F5F5;
+  height: 90px;
+  line-height: 90px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.left1 .t {
+  position: relative;
+}
+.left1 .t a {
+  position: absolute;
+  text-align: center;
+  bottom: 60px;
+  font-size: 25px;
+  color: white;
+}

@@ -1,0 +1,25 @@
+@charset 'utf-8';
+.section0 {
+  padding-right: 10%;
+}
+.center .left1 {
+  float: left;
+  width: 60%;
+  margin-right: 30px;
+  margin-left: 4%;
+}
+.center .left2 {
+  float: left;
+  width: 60%;
+  margin-left: 4%;
+}
+.center .right {
+  float: right;
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 4%;
+}
+.left1 .t a {
+  margin-left: 12%;
+}
